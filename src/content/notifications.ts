@@ -13,13 +13,13 @@ The users this would impact the most are people who lead a busy life who struggl
 
   researchTitle: "Research",
   surveyTitle: "User Survey",
-  surveyBody: `I created a survey that was sent out to phone users who used Android phones more specifically users who lead a busy lifestyle with a mixture of work, social and other my findings are as shown below: 
-
-• 48% tend to forget to respond to calls and messages
-• 22% found that they respond a day or more later to the message/call
-• 9% do not even respond back if the timeframe has been too long to call or message back 
-• 72% said they would benefit from a feature that could help with missed calls and messages`,
-
+  surveyBody: `I created a survey that was sent out to phone users who used Android phones more specifically users who lead a busy lifestyle with a mixture of work, social and other my findings are as shown below:`, 
+  surveyStats: [
+    "48% tend to forget to respond to calls and messages",
+    "22% found that they respond a day or more later to the message/call",
+    "9% do not even respond back if the timeframe has been too long to call or message back ",
+    "72% said they would benefit from a feature that could help with missed calls and messages"
+  ],
   userQuote: `Honestly I'm constantly on the move so I don't really check my calls and messages so I tend to forget the call or message I received at the time`,
 
   analysisTitle: "Competitive Analysis",
