@@ -1,4 +1,5 @@
 import { BOOK_SEEKER_FULL_TEXT as text } from '../content/bookseeker';
+import { getAssetPath } from '../utils/assets';
 
 const BookRecommendations = () => {
   return (
@@ -69,7 +70,7 @@ const BookRecommendations = () => {
 
           <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
             <img
-              src="images/bookseeker/process-flow.png"
+              src={getAssetPath("images/bookseeker/process-flow.png")}
               alt="Flow Diagram showing user interaction paths"
               className="w-full h-auto object-contain"
             />
@@ -93,7 +94,7 @@ const BookRecommendations = () => {
 
           <div className="w-full">
             <img
-              src="images/bookseeker/figma-flow.png"
+              src={getAssetPath("images/bookseeker/figma-flow.png")}
               alt="Final Prototype Showcase"
               className="w-full h-auto rounded-xl shadow-md border border-gray-100"
             />
@@ -148,7 +149,7 @@ const BookRecommendations = () => {
             </h3>
             <div className="flex justify-start">
               <img
-                src="images/bookseeker/icons.png"
+                src={getAssetPath("images/bookseeker/icons.png")}
                 alt="Icons"
               />
             </div>

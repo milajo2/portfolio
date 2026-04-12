@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { getAssetPath } from '../utils/assets';
 
 const Home = () => {
   return (
@@ -16,9 +17,9 @@ const Home = () => {
       {/* Project 1 */}
       <section className="flex flex-col items-center gap-8">
         <div className="flex w-full gap-4 justify-center">
-          <img src="images/bookseeker/bookseeker-1.jpeg" alt="Bookseeker" className="flex-1 w-1/3 h-auto rounded-lg shadow-sm object-cover" />
-          <img src="images/bookseeker/bookseeker-2.jpeg" alt="Bookseeker" className="flex-1 w-1/3 h-auto rounded-lg shadow-sm object-cover" />
-          <img src="images/bookseeker/bookseeker-3.jpeg" alt="Bookseeker" className="flex-1 w-1/3 h-auto rounded-lg shadow-sm object-cover" />
+          <img src={getAssetPath("images/bookseeker/bookseeker-1.jpeg")} alt="Bookseeker" className="flex-1 w-1/3 h-auto rounded-lg shadow-sm object-cover" />
+          <img src={getAssetPath("images/bookseeker/bookseeker-2.jpeg")} alt="Bookseeker" className="flex-1 w-1/3 h-auto rounded-lg shadow-sm object-cover" />
+          <img src={getAssetPath("images/bookseeker/bookseeker-3.jpeg")} alt="Bookseeker" className="flex-1 w-1/3 h-auto rounded-lg shadow-sm object-cover" />
         </div>
         <Link to="/book-recommendations" className="group">
           <h2 className="text-2xl font-serif text-center group-hover:underline decoration-1 underline-offset-8">
@@ -30,9 +31,9 @@ const Home = () => {
       {/* Project 2 */}
       <section className="flex flex-col items-center gap-8">
         <div className="flex w-full gap-4 justify-center">
-          <img src="images/notifications/notifs-1.jpeg" alt="Notifs" className="flex-1 w-1/3 h-auto rounded-lg shadow-sm object-cover" />
-          <img src="images/notifications/notifs-2.jpeg" alt="Notifs" className="flex-1 w-1/3 h-auto rounded-lg shadow-sm object-cover" />
-          <img src="images/notifications/notifs-3.jpeg" alt="Notifs" className="flex-1 w-1/3 h-auto rounded-lg shadow-sm object-cover" />
+          <img src={getAssetPath("images/notifications/notifs-1.jpeg")} alt="Notifs" className="flex-1 w-1/3 h-auto rounded-lg shadow-sm object-cover" />
+          <img src={getAssetPath("images/notifications/notifs-2.jpeg")} alt="Notifs" className="flex-1 w-1/3 h-auto rounded-lg shadow-sm object-cover" />
+          <img src={getAssetPath("images/notifications/notifs-3.jpeg")} alt="Notifs" className="flex-1 w-1/3 h-auto rounded-lg shadow-sm object-cover" />
         </div>
         <Link to="/notification-reminder" className="group">
           <h2 className="text-2xl font-serif text-center group-hover:underline decoration-1 underline-offset-8">
