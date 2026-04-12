@@ -73,7 +73,7 @@ const NotificationReminder = () => {
             <img
               src={getAssetPath('images/notifications/process-flow.png')}
               alt="Notification Flow Diagram"
-              className="w-full h-auto object-contain"
+              className="w-full max-w-3xl h-auto object-contain mx-auto"
             />
           </div>
           <div className="bg-white/50 p-6 rounded-lg border-l-4 border-gray-300">
