@@ -20,15 +20,9 @@ const NotificationReminder = () => {
 
         {/* Research & Survey Section */}
         <section>
-          <h2 className="text-2xl font-bold border-b border-black/10 pb-2 mb-4">{text.researchTitle}</h2>
-          <h3 className="text-xl font-semibold mb-2">{text.surveyTitle}</h3>
-          <p className="mb-4">{text.surveyBody}</p>
-          <ul className="list-disc list-inside space-y-2 mb-6">
-            {text.surveyStats.map((stat, i) => <li key={i}>{stat}</li>)}
-          </ul>
-          <blockquote className="italic border-l-4 border-black pl-4 my-8 text-lg">
-            "{text.userQuote}"
-          </blockquote>
+          <h2 className="text-2xl font-bold border-b border-black/10 pb-2 mb-6">{text.researchTitle}</h2>
+          <h3 className="text-xl font-semibold mb-4">{text.surveyTitle}</h3>
+          <p className="mb-6 text-gray-800">{text.surveyBody}</p>
         </section>
 
         {/* Competitive Analysis Section */}
