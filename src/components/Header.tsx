@@ -13,18 +13,6 @@ const Header = ({ title, links }: { title: string; links: { label: string; href:
         ))}
       </nav>
     </header>
-
-    //   {/* <nav className="absolute top-[91px] left-[1120px] flex items-center gap-[41px]">
-    //     <div className="h-[30px] flex items-center [font-family:'Inika-Regular',Helvetica] font-normal text-black text-xl tracking-[0] leading-[30px] underline whitespace-nowrap">
-    //       Home
-    //     </div>
-    //     <div className="h-[30px] flex items-center [font-family:'Inika-Regular',Helvetica] font-normal text-black text-xl tracking-[0] leading-[30px] underline whitespace-nowrap">
-    //       About
-    //     </div>
-    //     <div className="h-[30px] flex items-center [font-family:'Inika-Regular',Helvetica] font-normal text-black text-xl tracking-[0] leading-[30px] underline whitespace-nowrap">
-    //       Contact
-    //     </div>
-    //   </nav> */}
   );
 };
 

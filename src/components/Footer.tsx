@@ -1,15 +1,18 @@
-import { Link } from "react-router-dom";
-
-const Footer = ({ title, links }: { title: string; links: { label: string; href: string }[] }) => {
+const Footer = () => {
   return (
     <footer className="footer flex flex-col items-center gap-4 p-4 bg-background">
-      <div className="logo">{title}</div>
+      <div className="logo">Thank you for visiting!</div>
       <nav className="nav flex gap-4">
-        {links.map((link) => (
-          <Link key={link.label} to={link.href}>
-            {link.label}
-          </Link>
-        ))}
+        <a 
+          href="https://uk.linkedin.com/in/jamila-azad-b517b2128" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+        <a href="mailto:azadjamila123@gmail.com">
+          Email
+        </a>
       </nav>
     </footer>
   );

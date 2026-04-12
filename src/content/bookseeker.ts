@@ -1,0 +1,76 @@
+export const BOOK_SEEKER_FULL_TEXT = {
+  introTitle: "Book seeker",
+  introBody: "According to research done by the National literacy, reading for enjoyment is at an all time low where 1 in 3 young people enjoy reading in their free time. This is also true for older generations compared to previous where reading for enjoyment is declining. To address this lack of reading enjoyment I designed an application that generates personalised book recommendations. \n\nThe book seeker app aims to allow users to find book recommendations that are personalised to their taste at the time. The app caters to all genres, fiction, non-fiction and other elements that would be expanded upon.",
+  
+  challengeTitle: "Challenge",
+  challengeBody: "The problem of lack of enjoyment in reading came about when in discussion with a friend. With further research I was able to understand this lack of enjoyment was also nationwide in the UK. According to the National literacy a report conducted in 2025 on children and young people up to the age of 18, 1 in 3 (32.7%) enjoyed reading in their free time. This is a 20% decrease from when the research had began at 2005, this research had also been ongoing annually to understand ongoing trends in reading enjoyment.\n\nThe purpose of the book recommendation app is to address this lack of enjoyment in reading. According to the research, one of way of combatting this lack of enjoyment is finding literature associated to the users interests. The personalised book recommendations app would allow users to find book recommendations tailored to the previous reads, as well as allowing the user to detail the specifics into what book they would want to read.\n\nThe users this would most appeal to would be young adults (18-30) to help with lack of enjoyment in reading. This would then hopefully translate into reading more as the age progresses. The design intent for this would be to interactive and inviting to appeal to young people.",
+  
+  researchTitle: "Research",
+  surveyTitle: "User surveys",
+  surveyBody: "For this part of the research user surveys were conducted, the primary users of the design would be young adults aged between 18-30. A survey of 100 people aged between 18-30 were sent out and received the results are as followed:",
+  surveyStats: [
+    "68% give up reading a new book on average after 50 pages",
+    "30% actually found reading enjoyable",
+    "14% admitted that they would willingly read a new book if it were recommended by someone close to them or media recommendation pages",
+    "86% preferred books related to their interests or previous books that they have read."
+  ],
+  userQuote: "I just find it hard to relate to what I’m reading therefore I tend to just give up before really getting into the book. It’s really hard when you read one good book to find another book just like that.",
+  
+  analysisTitle: "Competitive analysis",
+  analysisBody1: "When it came to analysing like for like applications/websites that could address this matter it wasn’t an easy feat to find this. Majority of the book recommendations use a generic algorithm to recommend ‘books you may be interested in’ this can be found in marketers such as Google, Amazon and book retailer such as Waterstones, WHSmith and Goodreads. This usually recommends books that majority of users who bought the same book tend to go for next. The fault with this is that the book recommendation doesn’t feel personalised, with the book retailers sites there isn’t advanced options just basic inputs which can return results that are necessarily that much of an interest.",
+  analysisBody2: "Upon doing more advanced research such as looking into reddit to find websites or other retailers that could give better recommendations, Penguin was mentioned. It was hard navigating the book recommendation webpage, once met with what would look like the book recommendation page a compulsory quiz had to be filled out which consisted of four options, this then returned a book result dependent on the answers. This in turn still felt like a basic book recommendation it didn’t feel very personalised, it still felt a generalised book recommendation. The same answers to the quiz were inputted 3 times this returned the same result, causing to further believe that the recommendation felt very generalised.",
+  
+  insightsTitle: "Insights",
+  insightsItems: [
+    "Users were disengaged by books immediately if it didn’t relate to successful previous reads or their interests",
+    "Finding book recommendation sites/applications that could recommend books isn’t very easy to find",
+    "Most of which deliver sub par book results that have generalised tailored results",
+    "If books were just as engaging as previous books then users are more likely to integrate reading more into their lives"
+  ],
+  
+  ideationTitle: "Ideation",
+  ideationBody: "From considering the outputs attained from the research as well as the summarised insights. The features concluded to make this personalised book recommendations website:",
+  ideationFeatures: [
+    "User gets to choose between fiction or non-fiction",
+    "User inputs up to 3 previous read books to get basic recommendation",
+    "User inputs up to 3 previous read books and the ability to give advanced settings to get a more personalised recommendation"
+  ],
+  
+  iteration1Title: "First iteration",
+  iteration1Body: "For the first design concept instead of having the drop box options it followed a similar fashion of having all the options available on one page. This didn’t work well visually as the design looked very compact and it wouldn’t have been easy to operate. This design was then reassessed.",
+  
+  finalIterationTitle: "Final iteration",
+  finalIterationBody: "For each frame the different possible options that the user may have would be dedicated to that. For example Fiction and Basic combination, Non-fiction and Basic combination, Fiction and Advanced combination and Non-fiction and Advanced combination, the user would be able to alter between the different frames in order to input values to get their book recommendation to generate.",
+  
+  flowDiagramIntro: "Below is a flow design of how the app would operate when the user interacts with the design:",
+  flowDescription: "The flow diagram shows the possible edge cases that could occur such as the user not agreeing with the frame that they’re currently on, therefore, switching to the next one or going to the previous frame. This also allows the user to input up to three books so it’s not necessary for the user to input all three books, however, the only problem with this design is that if the user inputs one book the generated book recommendation would be just as good as the ones already out in the market.",
+  
+  proposedAppTitle: "Proposed App",
+  proposedAppBody: "With both the research and ideation, the user would get an easy UI to navigate. The UI would incorporate a basic and advanced option for the user to choose from, with both options it allow the user to input up to three previous books read to find like books. The user will have the option to choose whether they’re looking for fiction on non-fiction. Below is an example of the prototype:",
+  
+  // Add this inside your BOOK_SEEKER_FULL_TEXT object
+  visualIdentity: {
+    title: "Design Language",
+    description: "The concept behind the design language for this website is for it to be inviting, animated and bold. The purpose is for this to be very self explanatory and easy for the user to navigate.",
+    colors: [
+      { hex: "#FAB949", label: "Vibrant yellow-orange" },
+      { hex: "#FFD283", label: "Pale gold" },
+      { hex: "#FFA406", label: "Vivid orange" },
+      { hex: "#F6DCAE", label: "Light peach" },
+      { hex: "#FFECBE", label: "Champagne" },
+      { hex: "#FFFFFF", label: "White" },
+      { hex: "#000000", label: "Black" }
+    ],
+    typography: [
+      { font: "Inika regular", usage: "Title / upper sub-paragraph" },
+      { font: "Roboto regular", usage: "App typography / lower sub-paragraph" }
+    ]
+  },
+
+  nextStepsTitle: "Next steps",
+  nextStepsBody: "This is still in a working progress, so for the next steps I want:",
+  nextStepsItems: [
+    "I want to make the design more interactive in the sense of having more complicated drop-downs instead of being reliant on the arrows to navigate",
+    "Also be able to design the full front-end design development wise also, be able to A/B test this new design against the old in order to fully understand the ease of experience between the two"
+  ]
+};
