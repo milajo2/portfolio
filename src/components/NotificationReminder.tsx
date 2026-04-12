@@ -69,11 +69,11 @@ const NotificationReminder = () => {
         <section className="flex flex-col gap-6">
           <h2 className="text-2xl font-bold border-b border-black/10 pb-2">Flow Design</h2>
           <p className="leading-relaxed text-gray-700">{text.flowDiagramIntro}</p>
-          <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+          <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-100 max-w-sm mx-auto">
             <img
               src={getAssetPath('images/notifications/process-flow.png')}
               alt="Notification Flow Diagram"
-              className="w-full max-w-3xl h-auto object-contain mx-auto"
+              className="w-full h-auto object-contain"
             />
           </div>
           <div className="bg-white/50 p-6 rounded-lg border-l-4 border-gray-300">
