@@ -6,6 +6,7 @@ import Home from './components/Home';
 import About from './components/About';
 import BookRecommendations from './components/BookRecommendations';
 import NotificationReminder from './components/NotificationReminder';
+import ScrollToTop from "./components/ScrollToTop";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div className="min-h-screen bg-background">
       <div className="max-w-4xl mx-auto px-6 py-8 flex flex-col gap-12">
         <Router>
+          <ScrollToTop />
           <Header
             title="Jamila Azad"
             links={[
