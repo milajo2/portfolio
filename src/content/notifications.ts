@@ -1,27 +1,26 @@
 export const NOTIFICATION_CONTENT = {
   introTitle: "Notification reminder",
-  introBody: `Within our current digital age, we're constantly bombarded with notifications. Be it emails, text messages, push notifications from apps we never use. This can often be overwhelming, and important notifications could be easily missed. My aim was to create a tool to allow notifications to be prioritized and reminds the user about them.
+  introBody: `Within this 24/7 digital age replying back to calls and messages is seen as a must. According to the BBC people have cited confusion and anxiety when people don't respond back as soon as possible. This can also be considered rude, these feelings could be misconstrued as the user on the other end could be unavailable to call or text back due to the circumstances that they are in. 
 
-In most phones, there is usually an option to turn off notifications, but there isn't really an option to prioritize or keep reminders about them. This is an issue as often we see notifications and we ignore them because we're busy in the moment, but then we forget about them entirely. This tool would allow the user to keep a track of them and remind them at a later date.`,
+In most Android phones there currently isn't a feature where the user can able notifications after they receive a call or message that had been missed. This feature would allow the user to enable a reminder and choose a timer for when the notification to reply back or call back to. This feature should ultimately reduce feelings of anxiety, confusion and save the offending user from looking rude.`,
 
   challengeTitle: "Challenge",
-  challengeBody: `Being an offender of this and often forgetting to reply back to messages and other app notices, I wanted to create a solution that would allow the user to feel in control of their notifications.
+  challengeBody: `Being an offender of this problem where failing to reply back to messages and calls this can lead to miscommunication and ultimately looking rude to the person on the receiving end. 
 
-The purpose of creating this is for the user to stay updated and remind themselves to look back at things they've missed, rather than them being buried in a plethora of notifications. 
+The purpose of creating a feature that reminds users to respond back to calls and message is to avoid confusion and anxiety for the person on the receiving end. Especially since we live in a 24/7 digital world.  
 
-The aim of this project was to understand why people find this difficult and struggle with digital communication and find a way to navigate this. The result was to create a tool that works with existing notification systems, allowing users to categorize and set reminders for them.`,
+The users this would impact the most are people who lead a busy life who struggle with digital communication within this 24/7 digital age. This would people who are constantly working or people who aren’t as tied to their phone so do not respond to messages and calls in a respectable time.`,
 
   researchTitle: "Research",
   surveyTitle: "User Survey",
-  surveyBody: `I started by surveying friends and family about their phone notifications and how they manage them. Most of them said they find it difficult to stay on top of notifications, especially if they are busy and often forget to reply to them. 
+  surveyBody: `I created a survey that was sent out to phone users who used Android phones more specifically users who lead a busy lifestyle with a mixture of work, social and other my findings are as shown below: 
 
-Key findings from survey:
-• 80% of users felt overwhelmed by the amount of notifications.
-• 75% of users admitted to forgetting to reply to messages.
-• 70% of users would like a feature that allows them to prioritize notifications.
-• 60% of users felt that it would help them stay more organized with their tasks and messages.
+• 48% tend to forget to respond to calls and messages
+• 22% found that they respond a day or more later to the message/call
+• 9% do not even respond back if the timeframe has been too long to call or message back 
+• 72% said they would benefit from a feature that could help with missed calls and messages`,
 
-A common theme was that people feel overwhelmed with the amount of notifications and often feel like they are not in control. Therefore, the common theme was that people find it difficult to manage their notifications and often feel like they are missing out on important information.`,
+  userQuote: `Honestly I'm constantly on the move so I don't really check my calls and messages so I tend to forget the call or message I received at the time`,
 
   analysisTitle: "Competitive Analysis",
   analysisBody1: `I looked at different apps currently on the market, such as iOS notifications, Android notifications, and other third-party apps like Notification History Log. I found that while these apps allow you to see previous notifications, they do not allow you to prioritize them or set reminders for them.`,
@@ -53,7 +52,7 @@ Each category would have a different color to represent the level of priority.`,
   proposedAppBody: "With this in mind, the final design focuses on a minimal UI that complements existing system notifications rather than cluttering the screen. The user is able to prioritize notifications from the lock screen and view their organized list in the app for later.",
 
   visualIdentity: {
-    title: "Visual Identity",
+    title: "Design Language",
     description: "The concept behind the design language for this feature was to be sleek, simple and easy to navigate. The purpose is for this to be very self-explanatory and easy for the user to navigate while matching modern OS aesthetics.",
     colors: [
       { hex: "#FFB3A1", label: "Pastel red" },

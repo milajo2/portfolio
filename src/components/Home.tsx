@@ -23,7 +23,7 @@ const Home = () => {
         </div>
         <Link to="/book-recommendations" className="group">
           <h2 className="text-2xl font-serif text-center group-hover:underline decoration-1 underline-offset-8">
-            Book recommendation website
+            Book recommendation App
           </h2>
         </Link>
       </section>

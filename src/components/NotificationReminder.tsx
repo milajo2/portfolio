@@ -23,6 +23,9 @@ const NotificationReminder = () => {
           <h2 className="text-2xl font-bold border-b border-black/10 pb-2 mb-6">{text.researchTitle}</h2>
           <h3 className="text-xl font-semibold mb-4">{text.surveyTitle}</h3>
           <p className="mb-6 text-gray-800">{text.surveyBody}</p>
+          <blockquote className="italic border-l-4 border-black pl-4 my-8 text-lg">
+            "{text.userQuote}"
+          </blockquote>
         </section>
 
         {/* Competitive Analysis Section */}
