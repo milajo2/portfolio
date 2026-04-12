@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 // import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter as Router } from 'react-router-dom';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root')!);
 const basename = process.env.PUBLIC_URL || "";
 root.render(
-  <BrowserRouter basename={basename}>
+  <Router basename={basename}>
     <App />
-  </BrowserRouter>
+  </Router>
 );
 
 // If you want to start measuring performance in your app, pass a function
