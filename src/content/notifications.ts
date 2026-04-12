@@ -23,55 +23,50 @@ The users this would impact the most are people who lead a busy life who struggl
   userQuote: "Honestly I'm constantly on the move so I don't really check my calls and messages so I tend to forget the call or message I received at the time",
   
   analysisTitle: "Competitive Analysis",
-  analysisBody1: `I looked at different apps currently on the market, such as iOS notifications, Android notifications, and other third-party apps like Notification History Log. I found that while these apps allow you to see previous notifications, they do not allow you to prioritize them or set reminders for them.`,
+  analysisBody1: `I looked into Android phones and found that it was very hard to find a feature where it had a notification reminder. This feature however does exist on iPhones, within the UK around 45-55% of users tend to be Android users this would ultimately leave out half the UK population of having miscommunication issues.`,
 
   insightsTitle: "Insights",
   insightsItems: [
-    "Users find it difficult to stay on top of notifications.",
-    "Users often forget to reply to messages.",
-    "There is a need for a feature that allows users to prioritize notifications and set reminders."
+    "Users expressed that they’re not very good at getting back to calls and messages if not prompted to ",
+    "Users would benefit from a feature to have timed reminders so they’re prompted to reply or call back",
   ],
 
   ideationTitle: "Ideation",
-  ideationBody: `After gathering all the information from the research, I started to brainstorm ideas for the app. The result was to create a tool that would allow the user to categorize their notifications into three categories: 
-• High priority (red)
-• Medium priority (yellow)
-• Low priority (green)
-Each category would have a different color to represent the level of priority.`,
+  ideationBody: `From considering the outputs attained from the research as well as the summarised insights. The features concluded to make this feature that could be enabled on Android phone user settings: 
+• User gets to enable/disable notification reminder 
+• User is able to adjust timer to remind them to reply or call back `,
 
   iteration1Title: "First Iteration",
-  iteration1Body: `In the first iteration, the user would enter the app and see a list of all their notifications. From there, they could choose which notification they want to prioritize. This would allow the user to easily see all their notifications in one place and then decide which ones are important.`,
+  iteration1Body: `For the first design concept, the design wasn’t placed into the settings area it was a feature that could be enabled as a separate application. This problem with this is that design could be easily ignored and usability wise it felt like another unnecessary external application that needed to be downloaded in order to respond to messages and calls. This also made the external application feel invasive and just overall unnecessary.`,
 
   finalIterationTitle: "Final Iteration",
-  finalIterationBody: `In the final iteration, I decided to simplify the process. Instead of the user having to enter the app to prioritize, the app would now allow the user to prioritize directly from the notification itself. This would make it easier for the user to stay on top of their notifications and would be less time-consuming.`,
+  finalIterationBody: `This design concept allowed the design to be integrated within the settings under notifications. The positives of having this design over the previous iteration, is that the design didn’t feel invasive and unnecessary. This design allowed the user to simply enable or disable the feature instead of having to go through an external application to access the feature itself. `,
 
-  flowDiagramIntro: "Below is the flow design of how the system would operate:",
+  flowDiagramIntro: "Below is a flow design of how the feature would operate:",
   flowDescription: `The design concept allowed the user to filter notifications based on the designated categories. The user could set reminders for when they want to be notified, and they could also see a history of all their notifications and when they were received. This was simply created to allow the user to feel in control and not having to go through a plethora of notifications to find what they're looking for.`,
 
   proposedAppTitle: "Proposed app design",
-  proposedAppBody: "With this in mind, the final design focuses on a minimal UI that complements existing system notifications rather than cluttering the screen. The user is able to prioritize notifications from the lock screen and view their organized list in the app for later.",
+  proposedAppBody: "With both the research, ideation as well as keeping the UI as simple as possible whilst maintaining familiarity within the design. The user will be able to enable the feature to remind themselves to call or message back. Below is an example of the protoype of the design: ",
 
   visualIdentity: {
     title: "Design Language",
-    description: "The concept behind the design language for this feature was to be sleek, simple and easy to navigate. The purpose is for this to be very self-explanatory and easy for the user to navigate while matching modern OS aesthetics.",
+    description: "The concept of the design language of this feature is to mimic what’s already there so it isn’t unfamiliar UI and the user is still able to navigate as normally like it’s any other features on the page. Below is the summary of what is expected:",
     colors: [
-      { hex: "#FFB3A1", label: "Pastel red" },
-      { hex: "#4A3B37", label: "Espresso brown" },
-      { hex: "#F3D8D3", label: "Sandy pink" },
-      { hex: "#B79E98", label: "Dusty mushroom" },
-      { hex: "#3A2B27", label: "Deep cocoa" },
-      { hex: "#2B1F1C", label: "Dark charcoal" }
+      { hex: "#FFB3A9", label: "Pastel red" },
+      { hex: "#312220", label: "Espresso brown" },
+      { hex: "#DBC5C3", label: "Dusty pink" },
+      { hex: "#A6908D", label: "Dusty mushroom" },
+      { hex: "#2F1E1C", label: "Deep cocoa" },
+      { hex: "#221715", label: "Dark charcoal" }
     ],
     typography: [
-      { font: "Work Sans", usage: "Regular, Semi-bold, Bold" }
+      { font: "Work Sans", usage: "Regular, Semi-bold, Light" }
     ]
   },
 
   nextStepsTitle: "Next steps",
-  nextStepsBody: "As this is still a work in progress for the next steps I would like to:",
+  nextStepsBody: "This is still in working progress for the next steps I want to:",
   nextStepsItems: [
-    "Test the app with users and gather feedback to improve the user experience.",
-    "Look into ways to integrate the app with other apps and features.",
-    "Finalize the design and look into ways to develop it into a fully functional app."
+    "Create a workable front end and do further usability tests in order to understand what better works with the user and what doesn’t ",
   ]
 };
