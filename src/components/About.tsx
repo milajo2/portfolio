@@ -1,3 +1,5 @@
+import { getAssetPath } from "../utils/assets";
+
 const About = () => {
   return (
     <div className="flex flex-col items-center gap-8 px-4">
@@ -50,11 +52,16 @@ const About = () => {
             </div>
           </div>
 
-          {/* Resume */}
+          {/* CV */}
           <div className="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-4">
-            <span className="font-medium">Resume</span>
-            <a href="/path-to-your-resume.pdf" className="underline underline-offset-4">
-              My resume attached
+            <span className="font-medium">CV</span>
+            <a 
+              href={getAssetPath('Jamila_Product_Design_CV_updated.pdf')} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="underline underline-offset-4"
+            >
+              View CV
             </a>
           </div>
 
