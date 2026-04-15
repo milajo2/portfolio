@@ -93,11 +93,17 @@ const BookRecommendations = () => {
           </div>
 
           <div className="w-full">
+            <a 
+            href="https://www.figma.com/proto/QnKtXaAkIP2t223m6DMjv3/drop_box_v2?node-id=1-2&p=f&t=aUmzK6aAKvQHAbTG-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
             <img
               src={getAssetPath("images/bookseeker/figma-flow.png")}
               alt="Final Prototype Showcase"
               className="w-full h-auto rounded-xl shadow-md border border-gray-100"
             />
+            </a>
           </div>
         </section>
 
