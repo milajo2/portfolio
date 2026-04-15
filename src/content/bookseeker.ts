@@ -72,5 +72,7 @@ export const BOOK_SEEKER_FULL_TEXT = {
   nextStepsItems: [
     "I want to make the design more interactive in the sense of having more complicated drop-downs instead of being reliant on the arrows to navigate",
     "Also be able to design the full front-end design development wise also, be able to A/B test this new design against the old in order to fully understand the ease of experience between the two"
-  ]
+  ],
+
+  nextprojectTitle: "Next project"
 };

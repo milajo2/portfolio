@@ -68,5 +68,7 @@ The users this would impact the most are people who lead a busy life who struggl
   nextStepsBody: "This is still in working progress for the next steps I want to:",
   nextStepsItems: [
     "Create a workable front end and do further usability tests in order to understand what better works with the user and what doesn’t ",
-  ]
+  ],
+
+  nextprojectTitle: "Next project"
 };

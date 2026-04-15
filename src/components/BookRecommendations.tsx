@@ -165,6 +165,16 @@ const BookRecommendations = () => {
           </ul>
         </section>
 
+        {/* Next Project Section */}
+        <section className="flex justify-center py-8 border-t border-black/10">
+          <h2 className="text-2xl font-bold mb-4">
+            <a href="/portfolio/#/notification-reminder" className="hover:underline">
+            {text.nextprojectTitle}
+            </a>
+          </h2>
+        </section>
+
+
       </article>
     </div>
   );
