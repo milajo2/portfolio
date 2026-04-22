@@ -27,6 +27,9 @@ const Home = () => {
           <h2 className="text-2xl font-serif text-center group-hover:underline decoration-1 underline-offset-8">
             Book recommendation App
           </h2>
+          <p className="text-center text-gray-600 mt-2">
+            An App that returns personalised book recommendations based off of user inputs
+          </p>
         </Link>
       </section>
 
@@ -43,6 +46,9 @@ const Home = () => {
           <h2 className="text-2xl font-serif text-center group-hover:underline decoration-1 underline-offset-8">
             Notification priority
           </h2>
+          <p className="text-center text-gray-600 mt-2">
+            An feature in an already existing component that improves users response time to messages/calls
+          </p>
         </Link>
       </section>
     </div>
