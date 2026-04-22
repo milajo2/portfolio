@@ -43,7 +43,7 @@ The users this would impact the most are people who lead a busy life who struggl
   finalIterationBody: `This design concept allowed the design to be integrated within the settings under notifications. The positives of having this design over the previous iteration, is that the design didn’t feel invasive and unnecessary. This design allowed the user to simply enable or disable the feature instead of having to go through an external application to access the feature itself. `,
 
   flowDiagramIntro: "Below is a flow design of how the feature would operate:",
-  flowDescription: `The design concept allowed the user to filter notifications based on the designated categories. The user could set reminders for when they want to be notified, and they could also see a history of all their notifications and when they were received. This was simply created to allow the user to feel in control and not having to go through a plethora of notifications to find what they're looking for.`,
+  flowDescription: `The flow of the design is to be intuitive and simple to use where the use won't feel that this added feature is unfamiliar to them. The flow diagram also incorporates edge cases such as unable to find settings and how the user would be able to find the feature within the settings.`,
 
   proposedAppTitle: "Proposed app design",
   proposedAppBody: "With both the research, ideation as well as keeping the UI as simple as possible whilst maintaining familiarity within the design. The user will be able to enable the feature to remind themselves to call or message back. Below is an example of the protoype of the design: ",
