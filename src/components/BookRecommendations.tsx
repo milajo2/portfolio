@@ -15,7 +15,21 @@ const BookRecommendations = () => {
         {/* Challenge */}
         <section className="bg-white/30 p-6 rounded-lg border border-black/5">
           <h2 className="text-2xl font-bold mb-4">{text.challengeTitle}</h2>
+          <p className="whitespace-pre-line text-gray-700">{text.challengeResearch}</p>
+          <div className="grid grid-cols-2 gap-4 my-6">
+            <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+              <p className="text-sm text-gray-600">Enjoy Reading (2025)</p>
+              <p className="text-3xl font-bold text-blue-600">32.7%</p>
+            </div>
+            <div className="bg-red-50 p-4 rounded-lg border border-red-200">
+              <p className="text-sm text-gray-600">Decrease Since 2005</p>
+              <p className="text-3xl font-bold text-red-600">-20%</p>
+            </div>
+          </div>
           <p className="whitespace-pre-line text-gray-700">{text.challengeBody}</p>
+          <ul className="list-disc list-inside space-y-2 mb-6 text-gray-700">
+            {text.challengePoints.map((stat, i) => <li key={i}>{stat}</li>)}
+          </ul>
         </section>
 
         {/* Research & Survey */}
@@ -29,6 +43,7 @@ const BookRecommendations = () => {
           <blockquote className="italic border-l-4 border-black pl-4 my-8 text-lg">
             "{text.userQuote}"
           </blockquote>
+          <p className="mb-4">{text.surveySummary}</p>
         </section>
 
         {/* Competitive Analysis */}
@@ -36,6 +51,10 @@ const BookRecommendations = () => {
           <h2 className="text-2xl font-bold">{text.analysisTitle}</h2>
           <p>{text.analysisBody1}</p>
           <p>{text.analysisBody2}</p>
+          <p>{text.analysisBody3}</p>
+          <blockquote className="italic border-l-4 border-black pl-4 my-8 text-lg">
+            "{text.userQuote3}"
+          </blockquote>
         </section>
 
         {/* Insights */}
@@ -53,6 +72,11 @@ const BookRecommendations = () => {
           <section>
             <h2 className="text-2xl font-bold mb-4">{text.iteration1Title}</h2>
             <p className="leading-relaxed text-gray-700">{text.iteration1Body}</p>
+            <img
+              src={getAssetPath("images/bookseeker/first-iteration.png")}
+              alt="First iteration of app design"
+              className="w-2/3 h-auto object-contain mx-auto"
+            />
           </section>
 
           <section>

@@ -3,11 +3,17 @@ export const BOOK_SEEKER_FULL_TEXT = {
   introBody: "According to research done by the National literacy, reading for enjoyment is at an all time low where 1 in 3 young people enjoy reading in their free time. This is also true for older generations compared to previous where reading for enjoyment is declining. To address this lack of reading enjoyment I designed an application that generates personalised book recommendations. \n\nThe book seeker app aims to allow users to find book recommendations that are personalised to their taste at the time. The app caters to all genres, fiction, non-fiction and other elements that would be expanded upon.",
   
   challengeTitle: "Challenge",
-  challengeBody: "The problem of lack of enjoyment in reading came about when in discussion with a friend. With further research I was able to understand this lack of enjoyment was also nationwide in the UK. According to the National literacy a report conducted in 2025 on children and young people up to the age of 18, 1 in 3 (32.7%) enjoyed reading in their free time. This is a 20% decrease from when the research had began at 2005, this research had also been ongoing annually to understand ongoing trends in reading enjoyment.\n\nThe purpose of the book recommendation app is to address this lack of enjoyment in reading. According to the research, one of way of combatting this lack of enjoyment is finding literature associated to the users interests. The personalised book recommendations app would allow users to find book recommendations tailored to the previous reads, as well as allowing the user to detail the specifics into what book they would want to read.\n\nThe users this would most appeal to would be young adults (18-30) to help with lack of enjoyment in reading. This would then hopefully translate into reading more as the age progresses. The design intent for this would be to interactive and inviting to appeal to young people.",
-  
+  challengeResearch: "The problem of lack of enjoyment in reading came about when in discussion with a friend. With further research I was able to understand this lack of enjoyment was also nationwide in the UK. The National literacy had submitted its 2025 report done into reading, this research has been done annually since 2005. The people that this report was conducted on were children and young people up to the age of 18. Some of the findings from the report are displayed below:",
+  challengeBody: "The purpose of the book recommendation app is to address this lack of enjoyment in reading. According to the research, one of way of combatting this lack of enjoyment is finding literature associated to the users interests. The personalised book recommendations app would allow users to find book recommendations tailored to the previous reads.\n\nThe users this would most appeal to would be young adults (18-30) to help with lack of enjoyment in reading. This would then hopefully translate into reading more as the age progresses. The design intent for this would be to interactive and inviting to appeal to young people.\n\nTo summarise the above:",
+  challengePoints:[
+    "There's a lack of enjoyment in reading correlating to the decline of reading generally",
+    "Design an app to address the above by recommending a book which is personalised by the users inputs",
+    "Key demographic of this app would be be young people between the ages of 18-30 yrs old",
+    ],
+
   researchTitle: "Research",
   surveyTitle: "User surveys",
-  surveyBody: "For this part of the research user surveys were conducted, the primary users of the design would be young adults aged between 18-30. A survey of 100 people aged between 18-30 were sent out and received the results are as followed:",
+  surveyBody: "For this part of the research user surveys were conducted, the primary users of the design would be young adults aged between 18-30. A small sample size of 10 people which consist of friends and family members aged between 18-30 had answereed the survey, the results are as followed:",
   surveyStats: [
     "68% give up reading a new book on average after 50 pages",
     "30% actually found reading enjoyable",
@@ -15,11 +21,14 @@ export const BOOK_SEEKER_FULL_TEXT = {
     "86% preferred books related to their interests or previous books that they have read."
   ],
   userQuote: "I just find it hard to relate to what I’m reading therefore I tend to just give up before really getting into the book. It’s really hard when you read one good book to find another book just like that.",
-  
+  surveySummary:"Ideally the sample size would be scaled up as the results right now do not show a better representation to how the nation may feel towards reading. However, due to limitations this survey had to be scaled down in order to gain credible data.",
+
   analysisTitle: "Competitive analysis",
   analysisBody1: "When it came to analysing like for like applications/websites that could address this matter it wasn’t an easy feat to find this. Majority of the book recommendations use a generic algorithm to recommend ‘books you may be interested in’ this can be found in marketers such as Google, Amazon and book retailer such as Waterstones, WHSmith and Goodreads. This usually recommends books that majority of users who bought the same book tend to go for next. The fault with this is that the book recommendation doesn’t feel personalised, with the book retailers sites there isn’t advanced options just basic inputs which can return results that are necessarily that much of an interest.",
-  analysisBody2: "Upon doing more advanced research such as looking into reddit to find websites or other retailers that could give better recommendations, Penguin was mentioned. It was hard navigating the book recommendation webpage, once met with what would look like the book recommendation page a compulsory quiz had to be filled out which consisted of four options, this then returned a book result dependent on the answers. This in turn still felt like a basic book recommendation it didn’t feel very personalised, it still felt a generalised book recommendation. The same answers to the quiz were inputted 3 times this returned the same result, causing to further believe that the recommendation felt very generalised.",
-  
+  analysisBody2: "Upon doing more advanced research such as looking into Reddit to find websites or other retailers that could give better recommendations, Penguin was mentioned. It was hard navigating the book recommendation webpage, once met with what would look like the book recommendation page a compulsory quiz had to be filled out which consisted of four options, this then returned a book result dependent on the answers. This in turn still felt like a basic book recommendation it didn’t feel very personalised, it still felt a generalised book recommendation. The same answers to the quiz were inputted 3 times this returned the same result, causing to further believe that the recommendation felt very generalised.",
+  analysisBody3: "An app that I was recommended to look into was Fable. This app works more like a social media app where users can bond and share thoughts as well as track each others reading catalogue. This app although first of its kind, it doesn't have a feature where book recommendations are given based off previous reads and other specifics. Simple features with the app, current users still have trouble finding books one user stated: ",
+  userQuote3: "I've typed out entire book titles before, and the book does not come up.",
+
   insightsTitle: "Insights",
   insightsItems: [
     "Users were disengaged by books immediately if it didn’t relate to successful previous reads or their interests",
@@ -37,7 +46,7 @@ export const BOOK_SEEKER_FULL_TEXT = {
   ],
   
   iteration1Title: "First iteration",
-  iteration1Body: "For the first design concept instead of having the drop box options it followed a similar fashion of having all the options available on one page. This didn’t work well visually as the design looked very compact and it wouldn’t have been easy to operate. This design was then reassessed.",
+  iteration1Body: "For the first design concept instead of having options, it had a very basic UI where the user only had to input previous books read. The problem with this design is that the user can input a mixture of non-fiction and  fiction which could confuse the backend and not give a book recommendation that would be well liked. Furthermore the design at the moment doesn't enable the user to tailor their inputs any further causing the output to not entirely feel personalised.",
   
   finalIterationTitle: "Final iteration",
   finalIterationBody: "For each frame the different possible options that the user may have would be dedicated to that. For example Fiction and Basic combination, Non-fiction and Basic combination, Fiction and Advanced combination and Non-fiction and Advanced combination, the user would be able to alter between the different frames in order to input values to get their book recommendation to generate.",
