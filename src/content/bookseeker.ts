@@ -49,10 +49,13 @@ export const BOOK_SEEKER_FULL_TEXT = {
   iteration1Body: "For the first design concept instead of having options, it had a very basic UI where the user only had to input previous books read. The problem with this design is that the user can input a mixture of non-fiction and  fiction which could confuse the backend and not give a book recommendation that would be well liked. Furthermore the design at the moment doesn't enable the user to tailor their inputs any further causing the output to not entirely feel personalised.",
   
   finalIterationTitle: "Final iteration",
-  finalIterationBody: "For each frame the different possible options that the user may have would be dedicated to that. For example Fiction and Basic combination, Non-fiction and Basic combination, Fiction and Advanced combination and Non-fiction and Advanced combination, the user would be able to alter between the different frames in order to input values to get their book recommendation to generate.",
+  finalIterationBody: "For the first iteration the design didn’t consider the typical edge cases such as literature categorisation, therefore, could result in the user inputting books and receiving an output not to their expectation. The below the edge cases are explored further and a design is created to show what be expected if the user were to input such cases. Below is the flow diagram for fiction cases:",
+  finalnonfictionBody: "Below is the flow diagram non-fiction cases:",
+  finaldesignpromptsBody: "Below are the edge cases explored further within the design and how the response would look to the user. ",
+  finaldesignQuote: "I think it works well functionally! It’d be nicer if there was some description of the recommended book so I wouldn’t have to Google it and maybe if instead of one suggestion it could show like 3? So I have a bit of choice ",
   
   flowDiagramIntro: "Below is a flow design of how the app would operate when the user interacts with the design:",
-  flowDescription: "The flow diagram shows the possible edge cases that could occur such as the user not agreeing with the frame that they’re currently on, therefore, switching to the next one or going to the previous frame. This also allows the user to input up to three books so it’s not necessary for the user to input all three books, however, the only problem with this design is that if the user inputs one book the generated book recommendation would be just as good as the ones already out in the market.",
+  flowDescription: "The flow diagram shows the possible edge cases that could occur such as the user not agreeing with the frame that they’re currently on, therefore, switching to the next one or going to the previous frame. This also allows the user to input up to three books so it’s not necessary for the user to input all three books.",
   
   proposedAppTitle: "Proposed App",
   proposedAppBody: "With both the research and ideation, the user would get an easy UI to navigate. The UI would incorporate a basic and advanced option for the user to choose from, with both options it allow the user to input up to three previous books read to find like books. The user will have the option to choose whether they’re looking for fiction on non-fiction. Below is an example of the prototype:",
@@ -80,7 +83,17 @@ export const BOOK_SEEKER_FULL_TEXT = {
   nextStepsBody: "This is still in a working progress, so for the next steps I want:",
   nextStepsItems: [
     "I want to make the design more interactive in the sense of having more complicated drop-downs instead of being reliant on the arrows to navigate",
-    "Also be able to design the full front-end design development wise also, be able to A/B test this new design against the old in order to fully understand the ease of experience between the two"
+    "Also be able to design the full front-end design development wise also, be able to A/B test this new design against the old in order to fully understand the ease of experience between the two",
+    "I want to enable a social feature to the book recommendation app, which allows users to interact with one another ",
+  ],
+
+  impactmeasureTitle: "Impact and Measure",
+  impactmeasureBody: "For this step, I'll be stating ways how I would measure the success output of the design once the working progress is able to be estabilished:",
+  impactmeasureItems: [
+    "Track traffic of the App, be able to decipher what particular features of the app users interact with the most",
+    "Use App store reviews for user feedback as well as detail how it currently is doing",
+    "75% of the reviews should be positive in order to consider this as a success",
+    "Using my backend experience understand how the model for personalisation can be further improved by doing model retraining and do further A/B testing, this would ultimately improve the algorithm. This could be further measured by holding working groups to understand model performance.",
   ],
 
   nextprojectTitle: "Next project"

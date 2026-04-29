@@ -82,6 +82,26 @@ const BookRecommendations = () => {
           <section>
             <h2 className="text-2xl font-bold mb-4">{text.finalIterationTitle}</h2>
             <p className="leading-relaxed text-gray-700">{text.finalIterationBody}</p>
+            <img
+              src={getAssetPath("images/bookseeker/fiction-edge-cases.png")}
+              alt="Fiction flow diagram"
+              className="w-2/3 h-auto object-contain mx-auto"
+            />
+            <p className="leading-relaxed text-gray-700">{text.finalnonfictionBody}</p>
+            <img
+              src={getAssetPath("images/bookseeker/non-fiction-edge-cases.png")}
+              alt="Non-fiction flow diagram"
+              className="w-2/3 h-auto object-contain mx-auto"
+            />
+             <p className="leading-relaxed text-gray-700">{text.finaldesignpromptsBody}</p>
+             <img
+              src={getAssetPath("images/bookseeker/edge-cases.png")}
+              alt="Annotated design"
+              className="w-full h-auto object-contain mx-auto"
+            />
+            <blockquote className="italic border-l-4 border-black pl-4 my-8 text-lg">
+            "{text.finaldesignQuote}"
+          </blockquote>
           </section>
         </div>
 
@@ -192,6 +212,15 @@ const BookRecommendations = () => {
           <p className="mb-2">{text.nextStepsBody}</p>
           <ul className="list-disc list-inside space-y-2">
             {text.nextStepsItems.map((item, i) => <li key={i}>{item}</li>)}
+          </ul>
+        </section>
+
+        {/* Impact and measure */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">{text.impactmeasureTitle}</h2>
+          <p className="mb-2">{text.impactmeasureBody}</p>
+          <ul className="list-disc list-inside space-y-2">
+            {text.impactmeasureItems.map((item, i) => <li key={i}>{item}</li>)}
           </ul>
         </section>
 
