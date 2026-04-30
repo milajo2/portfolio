@@ -16,6 +16,9 @@ const NotificationReminder = () => {
          <section className="bg-white/30 p-6 rounded-lg border border-black/5">
           <h2 className="text-2xl font-bold mb-4">{text.challengeTitle}</h2>
           <p className="whitespace-pre-line text-gray-700 leading-relaxed">{text.challengeBody}</p>
+          <ul className="list-disc list-inside space-y-2 mb-6 text-gray-700">
+            {text.challengePoints.map((stat, i) => <li key={i}>{stat}</li>)}
+          </ul>
         </section>
 
         {/* Research & Survey Section */}
@@ -58,10 +61,20 @@ const NotificationReminder = () => {
           <section>
             <h2 className="text-2xl font-bold mb-4">{text.iteration1Title}</h2>
             <p className="leading-relaxed text-gray-700">{text.iteration1Body}</p>
+            <img
+              src={getAssetPath("images/notifications/first-iteration-design.png")}
+              alt="First iteration of design"
+              className="w-2/3 h-auto object-contain mx-auto"
+            />
           </section>
           <section>
             <h2 className="text-2xl font-bold mb-4">{text.finalIterationTitle}</h2>
             <p className="leading-relaxed text-gray-700">{text.finalIterationBody}</p>
+            <img
+              src={getAssetPath("images/notifications/final-iteration-design.png")}
+              alt="Final iteration of design"
+              className="w-2/3 h-auto object-contain mx-auto"
+            />
           </section>
         </div>
 
@@ -141,23 +154,32 @@ const NotificationReminder = () => {
             <h3 className="text-sm font-bold uppercase tracking-widest text-gray-400">Iconography</h3>
             <div className="flex justify-start">
               <img
-                src={getAssetPath('images/notifications/icons.png')}
-                alt="Icons"
-              />
+              src={getAssetPath("images/notifications/icons.png")}
+              alt="icons"
+              className="w-1/2 h-auto object-contain"
+            />
             </div>
           </div>
         </section>
 
         {/* Next Steps Section */}
-        <section className="pb-16 pt-10 border-t border-black/10">
+        <section>
           <h2 className="text-2xl font-bold mb-4">{text.nextStepsTitle}</h2>
-          <p className="mb-4 font-medium">{text.nextStepsBody}</p>
-          <ul className="list-disc list-inside space-y-2 text-gray-700">
-            {text.nextStepsItems.map((item, i) => (
-              <li key={i}>{item}</li>
-            ))}
+          <p className="mb-2">{text.nextStepsBody}</p>
+          <ul className="list-disc list-inside space-y-2">
+            {text.nextStepsItems.map((item, i) => <li key={i}>{item}</li>)}
           </ul>
         </section>
+        
+        {/* Impact and measure */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">{text.impactmeasureTitle}</h2>
+          <p className="mb-2">{text.impactmeasureBody}</p>
+          <ul className="list-disc list-inside space-y-2">
+            {text.impactmeasureItems.map((item, i) => <li key={i}>{item}</li>)}
+          </ul>
+        </section>
+        
         {/* Next Project Section */}
         <section className="flex justify-center py-8 border-t border-black/10">
           <h2 className="text-2xl font-bold mb-4">
