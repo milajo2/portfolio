@@ -2,7 +2,7 @@ export const NOTIFICATION_CONTENT = {
   introTitle: "Notification reminder",
   introBody: `Within this 24/7 digital age replying back to calls and messages is seen as a must. According to the BBC people have cited confusion and anxiety when people don't respond back as soon as possible. This can also be considered rude, these feelings could be misconstrued as the user on the other end could be unavailable to call or text back due to the circumstances that they are in. 
 
-In most Android phones there currently isn't a feature where the user can able notifications after they receive a call or message that had been missed. This feature would allow the user to enable a reminder and choose a timer for when the notification to reply back or call back to. This feature should ultimately reduce feelings of anxiety, confusion and save the offending user from looking rude.`,
+In most Android phones there currently isn't a feature where the user can enable notifications after they receive a call or message that had been missed. This feature would allow the user to enable a reminder and choose a timer for when the notification to reply back or call back to. This feature should ultimately reduce feelings of anxiety, confusion and save the offending user from looking rude.`,
 
   challengeTitle: "Challenge",
   challengeBody: `Being an offender of this problem where failing to reply back to messages and calls this can lead to miscommunication and ultimately looking rude to the person on the receiving end. 
@@ -53,12 +53,14 @@ Below are the summarised points:`,
   finalIterationBody: `This design concept allowed the design to be integrated within the settings under notifications. The positives of having this design over the previous iteration, is that the design couldn't be ignored. This design allowed the user to simply enable or disable the feature.
   
   Below is the final design:`,
+  finaliterationQuote: "I think the feature is really good, it'd really help me with my time management when it comes to reponding back to messages and calls.",
 
   flowDiagramIntro: "Below is a flow design of how the feature would operate:",
   flowDescription: `The flow of the design is to be intuitive and simple to use where the use won't feel that this added feature is unfamiliar to them. The flow diagram also incorporates edge cases such as unable to find settings and how the user would be able to find the feature within the settings.`,
 
   proposedAppTitle: "Proposed app design",
   proposedAppBody: "With both the research, ideation as well as keeping the UI as simple as possible whilst maintaining familiarity within the design. The user will be able to enable the feature to remind themselves to call or message back. Below is an example of the protoype of the design: ",
+  proposedSummary: "The problem with the current design upon reflection is that the user can only create one timer that would remind of them responding back to calls/messages. The way this feature could be further personalised is by assigning more than one reminder timer that could be for high priority people.",
 
   visualIdentity: {
     title: "Design Language",

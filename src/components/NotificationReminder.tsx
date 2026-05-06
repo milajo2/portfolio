@@ -75,6 +75,9 @@ const NotificationReminder = () => {
               alt="Final iteration of design"
               className="w-2/3 h-auto object-contain mx-auto"
             />
+            <blockquote className="italic border-l-4 border-black pl-4 my-8 text-lg">
+              "{text.finaliterationQuote}"
+            </blockquote>
           </section>
         </div>
 
@@ -106,9 +109,10 @@ const NotificationReminder = () => {
             <img
               src={getAssetPath('images/notifications/figma-flow.png')}
               alt="Notification Prototype"
-              className="w-full h-auto rounded-xl shadow-md border border-gray-100"
+              className="w-full h-auto object-contain"
             />
           </div>
+          <p className="leading-relaxed text-gray-800">{text.proposedSummary}</p>
         </section>
 
         {/* Visual Identity Section */}
