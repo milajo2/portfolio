@@ -1,21 +1,19 @@
 export const NOTIFICATION_CONTENT = {
   introTitle: "Notification reminder",
-  introBody: `Within this 24/7 digital age replying back to calls and messages is seen as a must. According to the BBC people have cited confusion and anxiety when people don't respond back as soon as possible. This can also be considered rude, these feelings could be misconstrued as the user on the other end could be unavailable to call or text back due to the circumstances that they are in. 
-
-In most Android phones there currently isn't a feature where the user can enable notifications after they receive a call or message that had been missed. This feature would allow the user to enable a reminder and choose a timer for when the notification to reply back or call back to. This feature should ultimately reduce feelings of anxiety, confusion and save the offending user from looking rude.`,
+  introBody: `In most Android phones there currently isn’t a feature within the settings of the phone where the user can enable a reminder to respond back to missed calls or messages during the period they were unable to. The proposed design would be to have a reminder feature alert integrated within the settings where the user can enable/disable as to whether they would like to be reminded to call/message back all the missed responses. This would be achieved by the user setting a scheduled timer which sends a singular ‘nudge’ to respond back to missed calls/messages.\n\nBelow is my research supporting my design as to why this feature would be necessary.\n\nWithin this 24/7 digital age replying back to calls and messages is seen as a must. According to the BBC people have cited confusion and anxiety when people don’t respond back as soon as possible. A person interviewed by the BBC quoted the following:\n\n`,
+  introQuote: 'So when a text goes unanswered, “some people get really upset, because they’re projecting their own anxieties” onto the situation -Hancock',
+  introBody2: "This can also be considered rude, these feelings could be misconstrued as the user on the other end could be unavailable to call or text back due to the circumstances that they are in. ",
 
   challengeTitle: "Challenge",
-  challengeBody: `Being an offender of this problem where failing to reply back to messages and calls this can lead to miscommunication and ultimately looking rude to the person on the receiving end. 
+  challengeBody: `The reason why the reminder feature is integrated within the operating system as opposed to being in an app is that it would be very accessible and the simplicity would imitate a system update rather than an external app. This would feel familiar to the user as well as the fact that an external app would be easier for the user to ignore.
 
-The purpose of creating a feature that reminds users to respond back to calls and message is to avoid confusion and anxiety for the person on the receiving end. Especially since we live in a 24/7 digital world.  
+  The users this would impact the most are people who lead a busy lifestyle who struggle with digital communication within this 24/7 digital age. This would be for people who are constantly working or people who aren’t as tied to their phone so do not respond to messages and calls in a respectable time.
 
-The users this would impact the most are people who lead a busy life who struggle with digital communication within this 24/7 digital age. This would people who are constantly working or people who aren’t as tied to their phone so do not respond to messages and calls in a respectable time.
-
-Below are the summarised points:`,
+  Below are the summarised points:`,
   challengePoints:[
     "People are unable to repsond back to others in a respectable timeframe within this digital age ",
-    "Design a feature within the current system which enables the user to respond back to the reciever in a respectable timeframe ",
-    "Key demographic of this app would be be young people between the ages of 18-30 yrs old",
+    "Design a feature within the operating system which can be enabled/disabled by the user to respond back to the reciever in a respectable timeframe ",
+    "Key demographic of this app would be young people between the ages of 18-30 yrs old",
     ],
 
   researchTitle: "Research",

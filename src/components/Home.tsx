@@ -12,6 +12,9 @@ const Home = () => {
           I'm an aspiring designer that's intrigued in making digital designs that are accessible and easy to use. 
           Currently I'm working on personal projects displaying my end to end design from ideation to prototype.
         </p>
+        <p className="text-lg text-gray-700 leading-relaxed">
+          Below are some of the <strong>projects</strong> that I've worked on, feel free to <strong>click</strong> on them to see the full case study and design process.
+        </p>
       </div>
 
       {/* Project 1 */}

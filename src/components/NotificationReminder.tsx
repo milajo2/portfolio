@@ -10,6 +10,12 @@ const NotificationReminder = () => {
         <section>
           <h1 className="text-4xl font-serif font-bold mb-6">{text.introTitle}</h1>
           <p className="whitespace-pre-line text-gray-800 leading-relaxed">{text.introBody}</p>
+          <div className="space-y-4">
+            <p className="italic">
+              "{text.introQuote}"
+            </p>
+            <p className="whitespace-pre-line text-gray-800 leading-relaxed">{text.introBody2}</p>
+          </div>
         </section>
 
         {/* Challenge Section - Unified Block Style */}
