@@ -81,6 +81,13 @@ const NotificationReminder = () => {
               alt="Final iteration of design"
               className="w-2/3 h-auto object-contain mx-auto"
             />
+            <p className="leading-relaxed text-gray-700 mt-6">{text.finalUserflow}</p>
+            <img
+              src={getAssetPath("images/notifications/user-journey-flow.png")}
+              alt="Final iteration user flow"
+              className="w-[1200px] h-auto object-contain mx-auto"
+            />
+            <p className="leading-relaxed text-gray-700 mt-6">{text.finalflowBody}</p>
             <blockquote className="italic border-l-4 border-black pl-4 my-8 text-lg">
               "{text.finaliterationQuote}"
             </blockquote>

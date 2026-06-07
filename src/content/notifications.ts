@@ -51,7 +51,9 @@ export const NOTIFICATION_CONTENT = {
   finalIterationBody: `This design concept allowed the design to be integrated within the settings under notifications. The positives of having this design over the previous iteration, is that the design couldn't be ignored. This design allowed the user to simply enable or disable the feature.
   
   Below is the final design:`,
-  finaliterationQuote: "I think the feature is really good, it'd really help me with my time management when it comes to reponding back to messages and calls.",
+  finalUserflow: "Below is the user flow of the design, this would be the expected journey for a user to navigate to the feature:",
+  finalflowBody: 'With the above user journey flow diagram added, the user would have to go into the Notifcations withhin the settings and then scroll down to find the feature where a singular prompt would appear when the timer is up to remind the user to respond back to calls and messages. Whilst the previous iteration the component would immediately be on the homepage of the settings, the reason why this is integrated within the notifications for simplicity sakes and making the design more intiuitive for the user to find.',
+  finaliterationQuote: "I think the feature is really good, it'd really help me with my time management when it comes to reponding back to messages and calls.- Alex",
 
   flowDiagramIntro: "Below is a flow design of how the feature would operate:",
   flowDescription: `The flow of the design is to be intuitive and simple to use where the use won't feel that this added feature is unfamiliar to them. The flow diagram also incorporates edge cases such as unable to find settings and how the user would be able to find the feature within the settings.`,
